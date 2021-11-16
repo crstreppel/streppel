@@ -41,3 +41,10 @@ div {
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
 }
+
+.interagindo-com-javascript {
+  animation-name: minhasegundaanimacao;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
