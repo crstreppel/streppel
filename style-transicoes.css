@@ -1,12 +1,14 @@
 div {
-  position: absolute;
+  /* position: absolute; */
   background-color: red;
   border: 5px solid black;
   top: 30px;
-  left: 10px;
+  left: 10px; 
   width: 200px;
-  height: 100px;
+  height: 150px;
   transition: 0.5s 0.7s;
+  font-size: 0.9em;
+  color: white;
 }
 
 div:hover {
@@ -19,4 +21,7 @@ div:hover {
 a {
   left: 10px;
   margin-bottom: 50px;
+}
+.paragrafo{
+  top: 100px;
 }
