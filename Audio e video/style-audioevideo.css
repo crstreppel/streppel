@@ -2,3 +2,9 @@
     background-color: black;
     color: white;
 }
+
+td{
+    border: 1px solid #ddd;
+    font-size: 1em;
+    padding: 1rem;
+}

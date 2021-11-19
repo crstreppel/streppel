@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+}
+.drop-area{
+    height: 200px;
+    width: 200px;
+    border: 1px black solid;
+    background-color: hsl(34, 67%, 88%);
+    margin: 10px;
+}
+#minhaImagem{
+    height: 30vw;
+    width: 30vh;
+    
+}

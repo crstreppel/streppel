@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Drag&Drop.css">
+    <title>Drag & Drop</title>
+</head>
+<body>
+    <img src="../imagens/logo.jpg" id="minhaImagem" draggable="true" ondragstart="dragStart(event)"/>
+    <img src="logo.png" id="minhaImagem" draggable="true" ondragstart="dragStart(event)" />
+
+
+    <div class="container">
+        <div class="drop-area" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+        <div class="drop-area" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+    </div>
+</body>
+</html>
