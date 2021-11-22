@@ -8,13 +8,40 @@
     <title>Drag & Drop</title>
 </head>
 <body>
-    <img src="../imagens/logo.jpg" id="minhaImagem" draggable="true" ondragstart="dragStart(event)"/>
-    <img src="logo.png" id="minhaImagem" draggable="true" ondragstart="dragStart(event)" />
-
-
+    <img src="../imagens/racao.jpg" id="minhaImagem" draggable="true" ondragstart="dragStart(event)"/>
+    
+    <div class="balcao">
+        <div class="drop-area" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+    </div>
     <div class="container">
         <div class="drop-area" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
         <div class="drop-area" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
     </div>
+
+    <main>
+        <h1>Drag & Drop</h1>
+
+        <p>O Drag & Drop (Arrastar e Soltar) é uma funcionalidade muito utilizada para melhorar a experiência do usuário.</p>
+
+<p> Você pode pensar no seu próprio sistema operacional. Quantas vezes você quis alterar um arquivo de lugar e simplesmente arrastou o ícone do arquivo para o destino desejado? É algo simples e intuitivo, e por isso algumas aplicações incluem a possibilidade de arrastar e soltar elementos.</p>
+
+<p>Antes a gente precisava utilizar muito código JavaScript para criar essa funcionalidade. Era muito comum o uso de plugins para jQuery que foram criadas para criar essa ação nas páginas.</p>
+
+<p>Com o HTML5 isso se tornou muito mais simples. Ainda precisamos de JavaScript, mas é bem menos, a ponto de não precisarmos mais de bibliotecas para fazer este efeito.</p>
+
+<h2>Arrastando Elementos</h2>
+
+<p>Vamos utilizar uma imagem aqui no nosso exemplo. Teremos duas caixas, e poderemos pegar a imagem e soltar na outra caixa.</p>
+
+<p>Qualquer elemento pode ser arrastável. No nosso exemplo, apenas a imagem será.</p>
+
+<p>Para tornar um elemento arrastável, basta acrescentar a propriedade "draggable" à sua tag igual a true.</p>
+
+<p>Agora é preciso indicar o que acontece quando um elemento é arrastado. Para isso iremos criar uma função chamada "dragStart" em javascript </p>
+
+<p>Na função dragStart que foi criada, pegamos o objeto event, esse objeto contém as informações spbre o evento realizado, no caso, as informação do objeto que escolhemos para arrastar para outro lugar </p>
+    </main>
+
+    <script src="./Drag&Drop.js"></script>
 </body>
 </html>
