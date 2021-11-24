@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leitura de arquivos</title>
+</head>
+<body>
+    <header>
+        <h1>Leitura de Arquivos</h1>
+    </header>
+    <main>
+        <input type="file" accept=".txt" id="myFile" />
+        <textarea id="fileContent" ></textarea>
+
+        <input type="file" accept=".txt" id="myFile" onchange="handleFileSelect()" />
+
+        <button onclick="saveFile()">Salvar o Arquivo</button>
+    </main>
+</body>
+</html>
