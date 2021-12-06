@@ -1,3 +1,4 @@
+import { soma } from "./func.js"
 
 let myNumber = 1285
 
@@ -24,4 +25,5 @@ let formater1 = new Intl.DateTimeFormat('pt-BR', {
 
 console.log(formater1.format(myDate))
 
+soma(2,5)
 
