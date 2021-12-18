@@ -1,48 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-index.css">
-    <title>Claudio Ricardo Streppel</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+
+    <title>1ª pagina usando o Bootstrap</title>
 </head>
+
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="./img/logo-removebg-preview.png" width="100" height="80" alt="logo da patypet" />
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#quemsomos">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#parceiros">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#loja">Loja</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr class="linha">
+    <section id="quemsomos">
+        <div class="container-fluid quem-somos text-center margin">
+            <h3>QUEM SOMOS</h3>
+            <img src="./img/equipe.jpeg" alt="imagem de equipe" class="rounded-circle" width=40%">
+            <h4>Buscamos a exclencia no atendimento, blá, blá, blá</h4>
+        </div>
 
-    <header>
-        <h1>Claudio Ricardo Streppel</h1>
-        <h2>Portfolio</h2>
+    </section>
+    <section id="parceiros">
+        <div class="container-fluid text-center margin parceiros">
+            <h3>PARCEIROS</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="./img/afagare.png " width="100%">
+                    </div>
+                    <div class="col-lg-4 blanco">
+                        <img src="./img/blanco.jpg" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="./img/logo-removebg-preview.png" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h3>SERVIÇOS</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h4>BANHO E TOSA</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto quod consequuntur itaque
+                            aliquam incidunt optio, quos quasi id quaerat, accusamus aliquid maiores temporibus commodi
+                            inventore. Iusto vero saepe facere excepturi?</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h4>VETERINARIA</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi debitis fugiat obcaecati
+                            commodi provident repellendus sed, autem nobis repudiandae inventore laboriosam voluptate
+                            mollitia consequatur veniam, quasi aspernatur ab tenetur. Vero!</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <H4>AGROPECUARIA</H4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ut tempora modi, ipsum
+                            deserunt dolorum voluptatum nihil iste quae inventore voluptates aperiam rerum. Vero
+                            doloremque illum quam at, officiis voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
 
-        <p class="construcao"> <strong> Esse site está em construção</strong></p>
-    </header>
-    <main>
-
-        <p> Olá, meu nome é Claudio, tenho 50 anos e estou aprendendo a desenvolver e programar agora. </p> 
-        Sempre trabalhei ligado a TI, fazendo a ponte entre as solicitações de usuarios e a resposta de analistas e programadores.</p>  
-        <p>Então, sei muito bem a idéia de muitos usuarios de como querem inserir e receber as informações de negócio e agora estou aprendendo como fornece-las com algo a mais.</p>
-        <p>Confesso que estou com dificuldades em "embelezar" as paginas usando o CSS, mas estou me esforçando para aprender !</p>
-        <p>Minha preocupação é desenvolver modos simples, intuitivos de inserção de dados pelo usuario e fornecer dados coesos para consultas e tomadas de decisões.</p>
-        <p>Esta pagina foi feita com HTML, CSS e JavaScript. Logo publicarei outros trabalhos desenvolvidos em Next.js, React, Python e outras tecnologias.</p>
-        <!-- <p>Abaixo estão os links com alguns dos conteudos que aprendi e estou aprendendo.</p> -->
-        
-        <h3>Um pouco sobre a minha história</h3>
-
-        <p> Minha vida profissional foi recheada de desafios. Na Calçados Beira Rio S/A, no inicio da minha carreira, quando trabalhava na area financeira participei do desenvolvimento,junto a TI da empresa e a TI do Banco do Brasil do sistema para transmitir os dados dos titulos a receber para o banco e receber as confimações de registro, pagamento, protesto, instruções, etc. </p> <p> Com a experiencia adquirida nesse projeto fui direcionado para participar da migração dos sistemas desnvolvidos em Cobol para SQL usando o Oracle, onde aprendi muito de SQL, cometi erros, aprendi com eles e assim comecei a ganhar mais experiencia.</p> Meu proximo desafio foi desenvolver um sistema de vendas e transmissão de pedidon on-line, isso no tempo da internet discada e dos primeiros celulares analógicos. Para conectar o notebook à Internet era necessario conectar um cabo do celular para o notebook,para então realizar a ligação ao provedor de Internet e assim iniciar a transmissão dos pedidos para a empresa. Viajei durante 2 anos acompanhando os representantes para adquirir o conhecimento necessário para passar as informações para a area de TI desenvolver o sistema de vendas. </p> 
-        <p> Participei de projetos aproveitamento de estoque, de BI, de desenvolvimento de lojas on line dentre muitos outros - Continua.....</p>
-         
-    <div>
-      <ul>
-          <!-- <li><a href="./transicoes.html">Transições</a></li>
-          <li><a href="./animacao.html">Animações</a></li>
-          <li> <a href="./media-queries/media-queries.html"> Média Queries</a></li>
-          <li><a href="./Audio e video/audioevideo.html">Audio e Video</a> </li>
-          <li><a href="./Drag & Drop/Drag&Drop.html">Drag e Drop</a> </li> -->
-      </ul>
-    </div>
-
-    </main>
-    <footer>
-       
-    </footer>
+        </div>
+    </section>
+    <hr>
+    <section id="loja">
+        <div class="container-fluid text-center margin loja">
+            <h3>LOJA</h3>
+        </div>
+    </section>
 </body>
+
 </html>

@@ -1,0 +1,8 @@
+
+Bootstrap 
+Se trata de um framework para desenvolvimeto de sites responsivos, isso é, que se adaptam ao tamanho da tela.
+Nada mais é do que um conjunto de estilos css para classes e componentes.
+
+Imagens:
+As imagens foram buscadas dos sites: 
+https://www.pexels.com/pt-br/
