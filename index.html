@@ -8,36 +8,38 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
 
-    <title>1ª pagina usando o Bootstrap</title>
+    <title>PatyPet</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-            <img src="./img/logo-removebg-preview.png" width="100" height="80" alt="logo da patypet" />
-        </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#quemsomos">Quem somos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#parceiros">Parceiros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#servicos">Serviços</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#loja">Loja</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo-removebg-preview.png" width="100" height="80" alt="logo da patypet" />
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#quemsomos">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#loja">Loja</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <hr class="linha">
     <section id="quemsomos">
         <div class="container-fluid quem-somos text-center margin">
             <h3>QUEM SOMOS</h3>
-            <img src="./img/equipe.jpeg" alt="imagem de equipe" class="rounded-circle" width=40%">
+            <img src="./img/logo-removebg-preview.png" alt="imagem de equipe" class="rounded-circle" width=40%">
             <h4>Buscamos a exclencia no atendimento, blá, blá, blá</h4>
         </div>
 
@@ -47,14 +49,11 @@
             <h3>PARCEIROS</h3>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <img src="./img/afagare.png " width="100%">
                     </div>
-                    <div class="col-lg-4 blanco">
+                    <div class="col-lg-6 blanco">
                         <img src="./img/blanco.jpg" width="100%">
-                    </div>
-                    <div class="col-lg-4">
-                        <img src="./img/logo-removebg-preview.png" width="100%">
                     </div>
                 </div>
             </div>
@@ -63,7 +62,9 @@
     <hr>
     <section id="servicos">
         <div class="container-fluid text-center margin servicos">
-            <h3>SERVIÇOS</h3>
+            <div class="h3-servicos">
+                <h3>SERVIÇOS</h3>
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
